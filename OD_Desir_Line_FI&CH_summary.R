@@ -233,9 +233,9 @@ for(i in 1:15){
     
 
 ########################
-#sensivity loop for shortage distance filtering "X11.30ton.Scenario.1_Failedshortage"
+#sensitivity loop for shortage distance filtering "X11.30ton.Scenario.1_Failedshortage"
 #This will show how much figure would be added if
-#to set G1[1] to G1[5] illustrates the sensivity analysis for shortage failed trips 
+#to set G1[1] to G1[5] illustrates the sensitivity analysis for shortage failed trips 
 # of scenario 1 to 5 set i2 1-5 as the scenario number of under 11 ton
 # of scenario 1 to 5 set i2 6-10 as the scenario number of 11-30 ton
 # of scenario 1 to 5 set i2 11-15 as the scenario number of 30-58 ton
