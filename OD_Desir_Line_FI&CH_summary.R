@@ -38,14 +38,13 @@ movetolast <- function(data, move) {
 Zones<-movetolast(Zones, c("X", "Y"))
 
 # tell R that End and startpoints coordinates are in the same lat/lon reference system
-# as the parks data -- BUT ONLY BECAUSE WE KNOW THIS IS THE CASE!
 #Zones <- spTransform(Zones, CRS("+proj=longlat +datum=WGS84"))
 #proj4string(Zones)
 names(Zones)
 
 
 # read in Specific o-d data, and turn it into a SpatialPointsDataFrame
-# Here the data is for spacific route of Helsinki-Lahti-Yvaskyla-Oulu-Kemi for freight Finland data 2016
+# Here the data is for specific route of Helsinki-Lahti-Yvaskyla-Oulu-Kemi for freight Finland data 2016
 Primary_OD <- read.csv("All Fin2016_2.csv", stringsAsFactors = FALSE, header = TRUE)
 
 # build counter trip
